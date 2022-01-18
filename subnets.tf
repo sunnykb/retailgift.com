@@ -6,7 +6,7 @@ resource "aws_subnet" "dfsc-public-2a" {
   availability_zone = "us-east-2a"
   map_public_ip_on_launch = "true"
   tags = {
-    Name        = "DFSC Pblic Subnet - 2A"
+    Name        = "DFSC Public Subnet - 2A"
     Terraform   = "True"
   }
 }
@@ -16,7 +16,7 @@ resource "aws_subnet" "dfsc-public-2b" {
   availability_zone = "us-east-2b"
   map_public_ip_on_launch = "true"
   tags = {
-    Name        = "DFSC Pblic Subnet - 2B"
+    Name        = "DFSC Public Subnet - 2B"
     Terraform   = "True"
   }
 }
